@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+h1 {
+	text-align: center;
+}
+body {
+	background-color: blue;
+}
+a:link {
+	color:#000000;
+	background-color:transparent;
+	text-decoration:none;
+
+}
+a:hover {
+	color:#ff0000;
+	background-color:transparent;
+	text-decoration:underline;
+}
+</style>
+</head>
+
+<body>
+
+<h1 style=“text-align:center”>FantasyFootball4U.com - FF4U</h1>
+</head>
+
+<body>
+
+<img src=“images/CMSC495ProjectGraphic1.jpg” alt=“fantasyfootball4U.com” width=“150” height=“200”>
+<!-- Todays Date -->
+		<img src="../common/spacer_whi.gif" width="1" height="5"><br>
+		<span class="date">
+        <script language="JavaScript"><!--
+       var DayOfWeek = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+       var MonthName = new Array('January','February','March','April','May','June','July','August','September',
+                          'October','November','December');
+       var theDate = new Date();
+       document.write('<NOBR>' + 
+               DayOfWeek[theDate.getDay()] + ', ' +
+			   MonthName[theDate.getMonth()] + ' ' +
+               theDate.getDate() + ', 2014' +
+               
+              '</font></NOBR>');
+        //--></script><br><img src="../common/spacer_whi.gif" width="2" height="3"><br></span></td>
+      <td align="center" valign="top"><img src="../common/spacer_whi.gif" width="2" height="5"><br> 
+     
+<img src=“http://a.espncdn.com/combiner/i?img=/i/nfl/nflblognetwork/nfl.png?w=250&h=250&transparent=true” alt= “NFL Logo”>
+
+<a href=”https://plus.google.com”> Google+ Chat</a> |
+
+<a href=“http://www.skype.com/en/“> Skype</a> |
+
+<a href=“http://email_list.jsp“> Email</a> |
+
+<a href=“create_account.jsp”> Create Account</a> |
+
+<a href=“join_league.jsp”> Join League</a> |
+
+<form  action="login.jsp” autocomplete="on">  
+     <p> 
+          <label for="username" class="uname" data-icon="u" >Username:</label>
+          <input id="username" name="username" required="required" type="text" placeholder="Username"/>
+     </p>
+     <p> 
+          <label for="password" class="youpasswd" data-icon="p">Password:</label>
+          <input id="password" name="password" required="required" type="password" placeholder="Password" /> 
+     </p>
+     <p class="keeplogin"> 
+          <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+          <label for="loginkeeping">Keep me logged in</label>
+     </p>
+     <p class="login button"> 
+          <input type="submit" value="Login" /> 
+     </p>
+</form>
+
+<form>
+<button onClick=“ss(this.form)”>Email</button>
+</form>
+
+
+<script language=“JavaScript” type=“text/javascript”>
+function checkLogin(x)
+{
+if ((x.id.value != “Test”)||(x.pass.value !=“test123”))
+{
+	alert(“Invalid Login”);
+	return false;
+}
+else
+	location=“FF4UTest.html”
+}
+</script>
+
+<script>
+<!--
+function ss()
+{
+var ok=confirm('Click "OK" to go to gmail, "CANCEL" to go to yahoo mail’)
+if (ok)
+location="https://www.gmail.com"
+else
+location="https://login.yahoo.com"
+}
+//-->
+</script>
+
+
+</body>
+
+</html>
